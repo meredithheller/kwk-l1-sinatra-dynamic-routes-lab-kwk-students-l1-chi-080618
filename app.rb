@@ -5,3 +5,4 @@ class App < Sinatra::Base
     @user_name = params[:name]
     puts "#{name}".reverse
   end
+end
